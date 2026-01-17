@@ -5,9 +5,9 @@ date: 2025-01-02
 
 # Basavraj Chinagundi
 
-Hey, I'm an AI Software Engineer with a passion for building intelligent systems and scalable solutions. Currently pursuing my Master's in Computer Science at Arizona State University, I specialize in AI/ML, full-stack development, and data engineering.
+I’m a software engineer who works on backend systems where performance and reliability matter. I’m currently pursuing a Master’s in Computer Science at **Arizona State University**, focusing on backend engineering, data pipelines, and applied AI systems that actually run in production.
 
-I've built RAG-based chatbots, automated code generation pipelines, and agentic AI workflows. I love working with cutting-edge technologies like LangChain, PyTorch, and modern web frameworks to solve real-world problems.
+Most of my work has been about taking slow or fragile systems and making them faster, safer, and easier to operate.
 
 <a href="https://drive.google.com/file/d/1-ZMYamYFkdONzdVABgon4s9rsn502CXv/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '0.4rem 0.8rem', border: '1px solid #ccc', borderRadius: '4px', textDecoration: 'none', fontSize: '0.9rem', marginTop: '0.5rem' }}>Download Resume</a>
 
@@ -15,9 +15,9 @@ I've built RAG-based chatbots, automated code generation pipelines, and agentic 
 
 ## Education
 
-**Master of Science, Computer Science** (Aug 2025 - July 2027)<br />
-Arizona State University, Tempe, AZ<br />
-GPA: 4.11/4<br />
+**Master of Science, Computer Science** (Aug 2025 - July 2027)  
+Arizona State University, Tempe, AZ  
+GPA: **4.11 / 4.0**
 
 ---
 
@@ -37,40 +37,25 @@ import Image from "next/image";
 
 ## Experience
 
-### AI Software Engineer | Deloitte
-*Oct 2023 – July 2025*
+### Software Engineer Analyst | Deloitte
+*Oct 2023 - July 2025*
 
-- Built a **chatbot** that actually understands banking documents by figuring out how to chunk them based on token limits and process them **asynchronously**. Also automated the conversion of old **Informatica XML mappings into SQL** - basically turned **weeks of manual migration into a button click**.
-- Connected **four different AI tools** to work together using **LangGraph**, so they automatically hand off tasks to each other. Also built **ETL pipelines** that pull data from **GCP and Azure**, then load it into **Snowflake and Databricks** without breaking.
+- Worked on a FastAPI backend shared by multiple internal teams. Most of the work was around tightening API contracts, validation, and error handling so teams could integrate without breaking each other.
+
+- Took slow and failure-prone workflows and moved the expensive parts into asynchronous background jobs. This removed request timeouts and reduced end-to-end processing from hours to under an hour.
+
+- Built and ran data pipelines and the surrounding infrastructure, including ETL into Snowflake, logging, metrics, testing, and deployment. The focus was on making failures predictable and easy to recover from.
 
 ### Software Development Engineer Intern | Samsung SDS
-*Mar 2023 – June 2023*
+*Mar 2023 - June 2023*
 
-- Replaced manual inventory tracking with a **Java/React microservice** that handles **1,000+ products**. Cut errors by **90%** and saved the team **10 hours a week**. Then used that data to build **ARIMA and Prophet models** that predict demand **30% better** than before.
+- Helped replace a manual inventory workflow with a small Java and React service that teams actually used day to day. It centralized product state and reduced mistakes caused by spreadsheets.
+
+- Used the inventory data to experiment with time-series forecasting using ARIMA and Prophet, mainly to understand demand patterns and help the team plan stock more reliably.
 
 ---
 
 ## Featured Projects
-
-<div style={{ marginBottom: '3rem' }}>
-
-### STaR: Self-Taught Reasoner
-
-<Image
-  src="/images/star-project.jpeg"
-  alt="STaR Project"
-  width={800}
-  height={450}
-  style={{ borderRadius: '8px', marginBottom: '1rem' }}
-/>
-
-[View on GitHub](https://github.com/raj-chinagundi/STaR-Self-Taught-Reasoner) | *Python, PyTorch, Hugging Face*
-
-Took the STaR paper and implemented it from scratch on **Llama 3.2-3B**. Started strong at **73.8%** on math problems, but then watched it collapse to **64.9%**. Spent time figuring out why - turns out the model was generating increasingly bad training examples for itself. The real project was **debugging why self-improvement broke down**.
-
-</div>
-
-<div style={{ marginBottom: '3rem' }}>
 
 ### Slapp-AI
 
@@ -82,13 +67,11 @@ Took the STaR paper and implemented it from scratch on **Llama 3.2-3B**. Started
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi/Slapp) | *Python, PyTorch, Multimodal Models, Supermemory*
+[View on GitHub](https://github.com/raj-chinagundi/Slapp) | *Python, PyTorch, Multimodal Models*
 
-Tinder for clothes. You swipe, it learns. Used a **vision model** to understand what's in the images, then built a **graph of your preferences** that updates with every swipe. Indexed **5,800+ items** so recommendations actually make sense. 
+A clothing recommendation system driven by user feedback. I used a vision model to extract attributes from product images and built a graph-based preference model that updates with each interaction. The system indexes over 5,800 items and produces recommendations that stay consistent over time.
 
-</div>
-
-<div style={{ marginBottom: '3rem' }}>
+<div style={{ marginBottom: '3rem' }}></div>
 
 ### ShadowSearch
 
@@ -102,17 +85,12 @@ Tinder for clothes. You swipe, it learns. Used a **vision model** to understand 
 
 [View on GitHub](https://github.com/raj-chinagundi/shadowsearch) | *JavaScript, Cloudflare Workers, Llama 3.1*
 
-**Chrome extension** that answers questions about whatever page you're reading. Runs on **Cloudflare's edge** so it's fast. The tricky part was keeping conversations separate for each tab while sharing the same context. **Won a hackathon** competing against **600+ people**.
-
-</div>
+A Chrome extension that answers questions about the page you are reading. It runs on Cloudflare Workers for low latency and keeps conversation state isolated per tab. Won a hackathon with over 600 participants.
 
 ---
 
 ## Connect
 
-Email: [basavrajchinagundi10@gmail.com](mailto:basavrajchinagundi10@gmail.com)
-
-LinkedIn: [linkedin.com/in/basavrajchinagundi](https://linkedin.com/in/basavrajchinagundi)
-
+Email: [basavrajchinagundi10@gmail.com](mailto:basavrajchinagundi10@gmail.com)  
+LinkedIn: [linkedin.com/in/basavrajchinagundi](https://linkedin.com/in/basavrajchinagundi)  
 GitHub: [github.com/raj-chinagundi](https://github.com/raj-chinagundi)
-
