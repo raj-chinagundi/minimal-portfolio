@@ -5,19 +5,22 @@ date: 2025-01-02
 
 # Basavraj Chinagundi
 
-I’m a software engineer who works on backend systems where performance and reliability matter. I’m currently pursuing a Master’s in Computer Science at **Arizona State University**, focusing on backend engineering, data pipelines, and applied AI systems that actually run in production.
+I work on backend systems where things break *after* they ship.
 
-Most of my work has been about taking slow or fragile systems and making them faster, safer, and easier to operate.
+Most of my time goes into data pipelines, internal platforms, and AI-backed tooling that other teams quietly depend on. I like taking slow, fragile workflows and turning them into systems that are boring, predictable, and hard to misuse.
 
-<a href="https://drive.google.com/file/d/1RPjyfzczkIhzD7kTd8DOaZ2j7Im7exAs/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '0.4rem 0.8rem', border: '1px solid #ccc', borderRadius: '4px', textDecoration: 'none', fontSize: '0.9rem', marginTop: '0.5rem' }}>Download Resume</a>
+I’m currently pursuing a **Master’s in Computer Science at Arizona State University**.
+
+<a href="https://drive.google.com/file/d/1T0Kp0XuSI-EfSbjYoTB3JwET_wLXn9xr/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '0.4rem 0.8rem', border: '1px solid #ccc', borderRadius: '4px', textDecoration: 'none', fontSize: '0.9rem', marginTop: '0.5rem' }}>Download Resume</a>
 
 ---
 
 ## Education
 
-**Master of Science, Computer Science** (Aug 2025 - July 2027)  
-Arizona State University, Tempe, AZ  
-GPA: **4.11 / 4.0**
+**M.S. Computer Science — Arizona State University**  
+*Aug 2025 – May 2027* • GPA: **4.0 / 4.0**
+
+Previously: B.E. Electronics & Communication, Thapar Institute (2019–2023).
 
 ---
 
@@ -37,25 +40,40 @@ import Image from "next/image";
 
 ## Experience
 
-### Software Engineer Analyst | Deloitte
-*Oct 2023 - July 2025*
+### Deloitte — Software Engineer  
+*Oct 2023 – July 2025*
 
-- Worked on a FastAPI backend shared by multiple internal teams. Most of the work was around tightening API contracts, validation, and error handling so teams could integrate without breaking each other.
-
-- Took slow and failure-prone workflows and moved the expensive parts into asynchronous background jobs. This removed request timeouts and reduced end-to-end processing from hours to under an hour.
-
-- Built and ran data pipelines and the surrounding infrastructure, including ETL into Snowflake, logging, metrics, testing, and deployment. The focus was on making failures predictable and easy to recover from.
-
-### Software Development Engineer Intern | Samsung SDS
-*Mar 2023 - June 2023*
-
-- Helped replace a manual inventory workflow with a small Java and React service that teams actually used day to day. It centralized product state and reduced mistakes caused by spreadsheets.
-
-- Used the inventory data to experiment with time-series forecasting using ARIMA and Prophet, mainly to understand demand patterns and help the team plan stock more reliably.
+- Backend + data pipelines for internal banking and AI tools.  
+- Turned manual / legacy ETL and document workflows into systems that didn’t need babysitting.  
+- Spent a lot of time moving heavy work off the request path and making failures obvious instead of silent.
 
 ---
 
-## Featured Projects
+### Samsung SDS — Software Engineer Intern  
+*Mar 2023 – Jun 2023*
+
+- Built an inventory microservice to replace spreadsheet workflows.  
+- Centralized product state so teams stopped guessing what was “true”.  
+- Used demand patterns to make planning less about gut feel.
+
+---
+
+## Projects
+
+### ShadowSearch — *1st Place, Sunhacks 2025*
+
+<Image
+  src="/images/shadowsearch.png"
+  alt="ShadowSearch Project"
+  width={800}
+  height={450}
+  style={{ borderRadius: '8px', marginBottom: '1rem' }}
+/>
+
+[View on GitHub](https://github.com/raj-chinagundi/shadowsearch)  
+Chrome extension that answers questions about the page you’re on. Runs on Cloudflare Workers with per-tab context and low-latency semantic search.
+
+---
 
 ### Slapp-AI
 
@@ -67,25 +85,23 @@ import Image from "next/image";
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi/Slapp) | *Python, PyTorch, Multimodal Models*
+[View on GitHub](https://github.com/raj-chinagundi/Slapp)  
+Multimodal clothing recommender indexing ~5,800 items. Built around feedback loops so rankings evolve instead of staying static.
 
-A clothing recommendation system driven by user feedback. I used a vision model to extract attributes from product images and built a graph-based preference model that updates with each interaction. The system indexes over 5,800 items and produces recommendations that stay consistent over time.
+---
 
-<div style={{ marginBottom: '3rem' }}></div>
-
-### ShadowSearch
+### STaR: Self-Taught Reasoner
 
 <Image
-  src="/images/shadowsearch.png"
-  alt="ShadowSearch Project"
+  src="/images/star-project.png"
+  alt="STAR Project"
   width={800}
   height={450}
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi/shadowsearch) | *JavaScript, Cloudflare Workers, Llama 3.1*
-
-A Chrome extension that answers questions about the page you are reading. It runs on Cloudflare Workers for low latency and keeps conversation state isolated per tab. Won a hackathon with over 600 participants.
+[View on GitHub](https://github.com/raj-chinagundi)  
+Reimplemented the STaR framework and trained a reasoning model on GSM8K. Mostly to see where “chain-of-thought” actually falls apart.
 
 ---
 
