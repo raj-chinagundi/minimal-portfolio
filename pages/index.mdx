@@ -1,24 +1,22 @@
 ---
 type: page
-date: 2025-01-02
+date: 2026-02-05
 ---
 
 # Basavraj Chinagundi
 
-I work on backend systems where things break *after* they ship.
-
-Most of my time goes into data pipelines, internal platforms, and AI-backed tooling that other teams quietly depend on. I like taking slow, fragile workflows and turning them into systems that are boring, predictable, and hard to misuse.
+I like messy backends. I specialize in taking fragile, duct-taped workflows and refactoring them into systems that actually survive production. Whether it's optimizing slow SQL queries or wrangling unpredictable LLM outputs, I focus on building infrastructure that is boring, reliable, and hard to break.
 
 I’m currently pursuing a **Master’s in Computer Science at Arizona State University**.
 
-<a href="https://drive.google.com/file/d/1T0Kp0XuSI-EfSbjYoTB3JwET_wLXn9xr/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '0.4rem 0.8rem', border: '1px solid #ccc', borderRadius: '4px', textDecoration: 'none', fontSize: '0.9rem', marginTop: '0.5rem' }}>Download Resume</a>
+<a href="https://drive.google.com/file/d/1QE-9vMDGg9svdghKMWIMkljaYrZ30bmT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-block', padding: '0.4rem 0.8rem', border: '1px solid #ccc', borderRadius: '4px', textDecoration: 'none', fontSize: '0.9rem', marginTop: '0.5rem' }}>Download Resume</a>
 
 ---
 
 ## Education
 
-**M.S. Computer Science - Arizona State University**  
-*Aug 2025 - May 2027* • GPA: **4.11 / 4.0**
+**M.S. Computer Science - Arizona State University**
+*Aug 2025 - May 2027* • GPA: **4.0 / 4.0**
 
 Previously: B.E. Electronics & Communication, Thapar Institute (2019-2023).
 
@@ -40,21 +38,24 @@ import Image from "next/image";
 
 ## Experience
 
-### Deloitte - Software Engineer  
+### Deloitte - Software Engineer
 *Oct 2023 - July 2025*
 
-- Backend + data pipelines for internal banking and AI tools.  
-- Turned manual / legacy ETL and document workflows into systems that didn’t need babysitting.  
-- Spent a lot of time moving heavy work off the request path and making failures obvious instead of silent.
+I focused on **modernization and automation**, effectively automating myself out of the boring parts of the job.
+
+- **The "Transpiler" Project:** Wrote a Python utility that parsed XML mappings and auto-generated optimized SQL logic. It handled a migration of 200+ workflows and killed 90% of the manual grunt work.
+- **Vector Search at Scale:** Architected a FastAPI microservice for semantic search over unstructured docs. Used custom chunking to slash P99 latency by 40%.
+- **Agentic Workflows:** Orchestrated multi-step AI agents using **LangGraph**, handling state management and conditional branching so the bots didn't get lost in loops.
+- **Quality Gates:** Introduced a strict testing culture with Pytest and Azure DevOps, because I hate waking up for hotfixes.
 
 ---
 
-### Samsung SDS - Software Engineer Intern  
+### Samsung SDS - Software Engineer Intern
 *Mar 2023 - Jun 2023*
 
-- Built an inventory microservice to replace spreadsheet workflows.  
-- Centralized product state so teams stopped guessing what was “true”.  
-- Used demand patterns to make planning less about gut feel.
+- **Full-Stack Inventory:** Built a Spring Boot + React system to manage 1,000+ SKUs, killing a legacy spreadsheet process.
+- **Performance Engineering:** Tuned MySQL schemas and indexes to sustain **sub-200ms** response times under high concurrency.
+- **Forecasting:** Implemented ARIMA and Prophet models to help the business predict demand rather than guess at it.
 
 ---
 
@@ -70,8 +71,10 @@ import Image from "next/image";
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi/shadowsearch)  
-Chrome extension that answers questions about the page you’re on. Runs on Cloudflare Workers with per-tab context and low-latency semantic search.
+[View on GitHub](https://github.com/raj-chinagundi/shadowsearch)
+A Chrome extension that turns the current webpage into an interactive knowledge base.
+* **The Tech:** JavaScript, Cloudflare Workers, Llama 3.1.
+* **The Logic:** Ingests active tab content to enable real-time Q&A regarding the page context and generates semantic recommendations for similar reading materials.
 
 ---
 
@@ -85,8 +88,10 @@ Chrome extension that answers questions about the page you’re on. Runs on Clou
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi/Slapp)  
-Multimodal clothing recommender indexing ~5,800 items. Built around feedback loops so rankings evolve instead of staying static.
+[View on GitHub](https://github.com/raj-chinagundi/Slapp)
+A multimodal recommendation engine that actually understands what you're looking for.
+* **The Tech:** Python, Vector DBs, Streamlit.
+* **The Logic:** Indexes 5,800+ items and uses vector similarity search to rank results based on evolving user preference graphs.
 
 ---
 
@@ -100,13 +105,15 @@ Multimodal clothing recommender indexing ~5,800 items. Built around feedback loo
   style={{ borderRadius: '8px', marginBottom: '1rem' }}
 />
 
-[View on GitHub](https://github.com/raj-chinagundi)  
-Reimplemented the STaR framework and trained a reasoning model on GSM8K. Mostly to see where “chain-of-thought” actually falls apart.
+[View on GitHub](https://github.com/raj-chinagundi/STaR-Self-Taught-Reasoner)
+Reproducing deep research to understand how LLMs "think."
+* **The Result:** Fine-tuned Llama 3.2-3B on GSM8k, achieving **73.8% accuracy**.
+* **The Goal:** Validating the "chain-of-thought" bootstrapping methodology by building the training loop from scratch.
 
 ---
 
 ## Connect
 
-Email: [basavrajchinagundi10@gmail.com](mailto:basavrajchinagundi10@gmail.com)  
-LinkedIn: [linkedin.com/in/basavrajchinagundi](https://linkedin.com/in/basavrajchinagundi)  
+Email: [bchinagu@asu.edu](mailto:bchinagu@asu.edu)
+LinkedIn: [linkedin.com/in/basavrajchinagundi](https://linkedin.com/in/basavrajchinagundi)
 GitHub: [github.com/raj-chinagundi](https://github.com/raj-chinagundi)
