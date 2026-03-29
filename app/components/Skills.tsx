@@ -47,6 +47,7 @@ const skills: { category: string; items: Skill[] }[] = [
   {
     category: "Data & Cloud",
     items: [
+      { name: "AWS", slug: "amazonwebservices", cdn: DEVICON },
       { name: "Snowflake", slug: "snowflake" },
       { name: "Databricks", slug: "databricks" },
       { name: "PostgreSQL", slug: "postgresql" },
@@ -58,7 +59,6 @@ const skills: { category: string; items: Skill[] }[] = [
   {
     category: "Tools",
     items: [
-      { name: "AWS", slug: "amazonwebservices", cdn: DEVICON },
       { name: "Git", slug: "git" },
       { name: "Docker", slug: "docker" },
       { name: "Postman", slug: "postman" },
