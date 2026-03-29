@@ -139,7 +139,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         model: openRouterConfig.model,
         messages: openRouterMessages,
-        temperature: 0.2,
+        temperature: 0.4,
       }),
       cache: "no-store",
     });
