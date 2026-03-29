@@ -133,7 +133,7 @@ export default function ResumeChatbot() {
       const reply =
         typeof data?.reply === "string"
           ? data.reply
-          : "I could not find a grounded answer in the resume context.";
+          : "I do not have a solid answer for that from the information here.";
 
       setMessages((current) => [
         ...current,
