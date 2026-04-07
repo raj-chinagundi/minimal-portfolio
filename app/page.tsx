@@ -22,7 +22,7 @@ export default function Home() {
       </p>
       <a
         className="resume-btn"
-        href="https://drive.google.com/file/d/1oEDZULGvbJVLKzB9OdYdIJwJVLMRyo13/view?usp=sharing"
+        href="https://drive.google.com/file/d/15FTMKG4HQX26tQ8f7HhnPGPPcEubq4Go/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
